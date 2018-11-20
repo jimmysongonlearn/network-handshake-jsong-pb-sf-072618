@@ -31,5 +31,5 @@ class SimpleNode(SimpleNode):
         # create a version message
         # send the command
         # wait for a verack message
-        pass
+        raise NotImplementedError
 ```
